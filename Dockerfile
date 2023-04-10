@@ -1,3 +1,3 @@
 FROM ubuntu
-RUN apt install maven
+RUN sudo apt install maven
 RUN mvn clean install
