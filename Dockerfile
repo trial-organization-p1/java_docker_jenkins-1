@@ -1,3 +1,2 @@
-FROM ubuntu
-RUN sudo apt install maven
-RUN mvn clean install
+FROM tomcat:8.0.20-jre8
+
