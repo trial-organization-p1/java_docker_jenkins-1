@@ -1,5 +1,3 @@
-FROM ubuntu as build
-WORKDIR /javaapp
-COPY . .
+FROM ubuntu
 RUN apt install maven
 RUN mvn clean install
